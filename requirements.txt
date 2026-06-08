@@ -1,1 +1,14 @@
-# Add your project dependencies here
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+google-play-scraper
+app-store-scraper
+pandas
+fpdf2
+vaderSentiment
+python-multipart
+celery
+langdetect
+alembic
+urllib3==1.26.15
