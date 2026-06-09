@@ -39,7 +39,7 @@ bash
 cd frontend
 npm run dev
 
-Step 4: View the Dashboard
+###Step 4: View the Dashboard
 A pop-up will appear in the bottom right corner of VS Code saying "Your application is running on port 5173". Click Open in Browser to view the live dashboard!
 
 
