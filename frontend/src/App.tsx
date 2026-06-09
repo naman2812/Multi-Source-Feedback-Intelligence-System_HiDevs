@@ -51,10 +51,21 @@ export default function App() {
     setLoading(false);
   };
 
-  const handleDownload = () => {
-    window.open('/api/report/download', '_blank');
+    const handleDownload = async () => {
+    try {
+      const res = await fetch('/api/report/download');
+      const blob = await res.blob();
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'Weekly_Feedback_Report.pdf';
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+    } catch (e) {
+      console.error(e);
+    }
   };
-
   const handleSuggestReply = async (id) => {
     try {
       const res = await fetch(`/api/feedback/${id}/suggest-response`);
