@@ -36,14 +36,19 @@ def analyze_sentiment(text: str) -> dict:
             # Get compound score from -1.0 to +1.0
             scores = analyzer.polarity_scores(truncated_text)
             compound = scores['compound']
+            # Context-aware override for subtle complaints that Vader misses
+            lower_text = truncated_text.lower()
+            negative_keywords = ['deducted', 'charged', 'refund', 'scam', 'crash', 'stuck', 'not working', 'broken', 'free plan', 'issue', 'bug', 'fail']
             
-            if compound >= 0.05:
+            if any(word in lower_text for word in negative_keywords):
+                label = "NEGATIVE"
+                compound = -0.5 # override score
+            elif compound >= 0.05:
                 label = "POSITIVE"
             elif compound <= -0.05:
                 label = "NEGATIVE"
             else:
-                label = "NEUTRAL"
-                
+                label = "NEUTRAL"    
             return {"label": label, "score": compound, "language": language}
         except Exception as e:
             logger.error(f"Error during sentiment analysis: {e}")
