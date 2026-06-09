@@ -4,6 +4,8 @@
 ![React](https://img.shields.io/badge/React-18.2-61dafb.svg)
 ![Status](https://img.shields.io/badge/Status-Production_Ready-brightgreen.svg)
 
+📺 **[Click Here to Watch the 3-Minute Project Demo Video](https://youtu.be/-zxWRdoyZw8)**
+
 A full-stack, AI-powered intelligence dashboard that aggregates, analyzes, and prioritizes customer feedback from multiple real-world sources in real-time. 
 
 Instead of a basic Streamlit script, this project features a production-ready **React.js** frontend with a high-performance **FastAPI** backend, fully containerized for a seamless 1-click launch in GitHub Codespaces.
