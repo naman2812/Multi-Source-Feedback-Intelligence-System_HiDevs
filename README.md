@@ -1,4 +1,8 @@
 # 🚀 Enterprise Feedback Intelligence System
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-green.svg)
+![React](https://img.shields.io/badge/React-18.2-61dafb.svg)
+![Status](https://img.shields.io/badge/Status-Production_Ready-brightgreen.svg)
 
 A full-stack, AI-powered intelligence dashboard that aggregates, analyzes, and prioritizes customer feedback from multiple real-world sources in real-time. 
 
