@@ -13,8 +13,8 @@ Instead of a basic Streamlit script, this project features a production-ready **
 - **Sentiment Analysis:** Accurate sentiment classification (Positive, Neutral, Negative) utilizing NLP.
 - **Trend Detection:** Real-time data aggregation to track shifting customer satisfaction trends.
 - **Issue Prioritization:** Automatically flags critical issues and negative reviews as "Urgent Bugs" for immediate team action.
-- **⭐ EXTRA CREDIT - Premium Dashboard:** Built a highly advanced, fully responsive React.js dashboard with interactive Recharts (exceeding the Streamlit requirement).
-- **⭐ EXTRA CREDIT - AI Response Generation:** One-click automated generation of professional customer service replies to individual reviews.
+- **⭐- Premium Dashboard:** Built a highly advanced, fully responsive React.js dashboard with interactive Recharts (exceeding the Streamlit requirement).
+- **⭐- AI Response Generation:** One-click automated generation of professional customer service replies to individual reviews.
 
 ---
 
