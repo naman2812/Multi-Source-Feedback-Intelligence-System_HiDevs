@@ -8,6 +8,8 @@ A full-stack, AI-powered intelligence dashboard that aggregates, analyzes, and p
 
 Instead of a basic Streamlit script, this project features a production-ready **React.js** frontend with a high-performance **FastAPI** backend, fully containerized for a seamless 1-click launch in GitHub Codespaces.
 
+"No external API keys are required as the system uses custom open-source scrapers for real-time fetching."
+
 ## ✨ Features & Rubric Completion
 - **Multi-Source Integration:** Asynchronous scrapers for both **Google Play Store** and **Apple App Store** reviews.
 - **Sentiment Analysis:** Accurate sentiment classification (Positive, Neutral, Negative) utilizing NLP.
