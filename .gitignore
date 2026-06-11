@@ -2,9 +2,12 @@
 __pycache__/
 *.py[cod]
 .venv/
+venu/
 env/
 .DS_Store
 node_modules/
 .idea/
 .vscode/
 *.log
+venv/
+.venv/
